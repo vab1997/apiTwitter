@@ -1,4 +1,4 @@
-package apitwitter
+package main
 
 import "fmt"
 
