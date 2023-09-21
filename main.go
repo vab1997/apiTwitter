@@ -54,7 +54,7 @@ func ExecuteLambda(ctx context.Context, req events.APIGatewayProxyRequest) (*eve
 
 	// create a map with values for context
 	options := map[string]string{
-		path:         path,
+		"path":       path,
 		"method":     req.HTTPMethod,
 		"user":       SecretModel.Username,
 		"password":   SecretModel.Password,
